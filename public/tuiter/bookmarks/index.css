@@ -1,0 +1,104 @@
+* { background-color: black;
+}
+
+.wd-left-pad {
+    margin-left: 16px;
+}
+
+.wd-top-pad {
+    margin-top: 12px;
+}
+
+.wd-borders {
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-top-bar {
+    margin-top: 12px;
+    font-size: 20px;
+    color: white;
+}
+
+.wd-top-bar-subtext {
+    color: rgb(47, 51, 54);
+    font-size: 13px;
+}
+
+.wd-avatar-image {
+    height: 48px;
+    width: 48px;
+    border-radius: 24px;
+    float: left;
+}
+
+.wd-user {
+    color: white;
+    font-size: 15px;
+    float: left;
+    margin-left: 16px;
+}
+
+.wd-user-handle {
+    color: rgb(47, 51, 54);
+    font-size: 15px;
+    float: left;
+}
+
+.wd-tuit-body {
+    color: white;
+    font-size: 15px;
+    margin-botton: 12px;
+    width: 506px;
+    padding-left: 48px;
+    margin-left: 16px;
+}
+
+.wd-dual-border {
+    margin-left: 64px;
+    width: 504px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+    border-width: 4px;
+}
+
+.wd-tuit-image {
+    width: 504px;
+    height: 264px;
+    border-style: solid;
+    border-width: 1px;
+    border-bottom: lightgray;
+}
+
+.wd-image-link {
+    padding-top: 12px;
+    color: white;
+    font-size: 15px;
+    width: 504px;
+}
+
+.wd-image-description {
+    color: rgb(47, 51, 54);
+    font-size: 15px;
+    width: 504px;
+}
+
+.wd-comments-likes {
+    width: 504px;
+    margin-left: 64px;
+    height: 20px;
+}
+
+.wd-icon {
+    color: white;
+    width: 25%;
+    float: left;
+}
+
+.wd-heart {
+    color: red;
+    width: 25%;
+    float: left;
+}
