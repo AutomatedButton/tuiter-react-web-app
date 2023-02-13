@@ -1,24 +1,16 @@
-* { background-color: black;
-}
-
 .wd-searchtuiterbox{
-    background-color: rgb(47, 51, 54);
-    color: white;
     width: 90%;
+    border-radius: 25px;
 }
-
-.wd-left-pad {
-     margin-left: 16px
- }
 
 .wd-borders {
-    border-width: 4px;
+    border-width: 1px;
     border-style: solid;
-    border-color: rgb(47,51,54);
+    border-color: lightgray;
 }
 
 .wd-rounded-corners-all-around {
-    border-radius: 100px;
+    border-radius: 25px;
 }
 
 .wd-float-right {
@@ -41,17 +33,6 @@
     font-size: 15px;
 }
 
-.wd-far-left-sixth {
-    width: 20%;
-    float: left;
-    color: rgb(29, 161, 262);
-}
-
-.wd-rest-of-sixths {
-    width: 16%;
-    float: left;
-    color: rgb(110, 118, 125);
-}
 
 .wd-trending-topic {
     font-size: 13px;
@@ -60,11 +41,9 @@
 
 .wd-trending-title {
     font-size: 15px;
-    color: white;
 }
 
 .wd-suggested-author {
-    color: white;
     font-size: 13px;
 }
 
@@ -85,3 +64,42 @@
     padding-left: 16px;
     padding-bottom: 100px;
 }
+
+.btn-primary.tuit-button {
+    border-radius: 50px;
+    width: 100%;
+}
+
+.wd-highlight {
+    background: dodgerblue;
+    color: white;
+}
+
+.wd-bottom-left {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    color: white;
+}
+
+.wd-follow-image {
+    border-radius: 16px;
+    height: 32px;
+    width: 32px;
+}
+
+.btn-primary.follow-btn {
+    border-radius: 50px;
+    float: right;
+}
+.wd-follow-box {
+    height: 45px;
+}
+
+.enforce-line {
+    white-space: nowrap;
+}
+.enforce-line-child {
+    display: inline-block;
+}
+

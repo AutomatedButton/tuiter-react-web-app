@@ -6,101 +6,161 @@
 </head>
 
 <head>
-    <link href="index.css"
+    <link href="index.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
           rel="stylesheet"/>
 </head>
 
 <body>
-<div class="wd-left-pad">
-    <form id="search-tuiter" class="wd-searchtuiter">
-        <input class="wd-searchtuiterbox wd-rounded-corners-all-around" placeholder="Search Tuiter">
-        <span class ="wd-float-right wd-padded-right wd-settings" href="explore-settings.html"> &#9881; </span>
-    </form>
-</div>
-<div class="wd-link-bar wd-left-pad">
-    <div class="wd-far-left-sixth">
-        For You
-    </div>
-    <div class="wd-rest-of-sixths">
-        Trending
-    </div>
-    <div class="wd-rest-of-sixths">
-        COVID-19
-    </div>
-    <div class="wd-rest-of-sixths">
-        News
-    </div>
-    <div class="wd-rest-of-sixths">
-        Sports
-    </div>
-    <div class="wd-rest-of-sixths">
-        Entertainment
-    </div>
-</div>
-<br/>
-<div class="wd-left-pad wd-topic-box wd-borders">
-    <div class="wd-trending-topic">
-        Trending in Science
-    </div>
-    <div class="wd-trending-title">
-        Starship
-    </div>
-    <div class="wd-trending-topic">
-        51.1K Tuits
-    </div>
-</div>
+<div class="container mt-2">
+    <div class="row">
+        <div class="col-3 col-xl-2 col-lg-1">
+            <div class="wd-borders">
+                <i class="fab fa-twitter"></i>
+            </div>
+            <div class="wd-borders enforce-line">
+                <i class="fa fa-home"></i> <div class="d-none d-lg-block">Home</div>
+            </div>
+            <div class="wd-borders wd-highlight enforce-line">
+                <i class="fa fa-hashtag"></i> <div class="d-none d-lg-block">Explore</div>
+            </div>
+            <div class="wd-borders enforce-line">
+                <i class="fa fa-bell"></i> <div class="d-none d-lg-block">Notifications</div>
+            </div>
+            <div class="wd-borders enforce-line">
+                <i class="fa fa-envelope"></i> <div class="d-none d-lg-block">Messages</div>
+            </div>
+            <div class="wd-borders enforce-line">
+                <i class="fa fa-bookmark"></i> <div class="d-none d-lg-block">Bookmarks</div>
+            </div>
+            <div class="wd-borders enforce-line">
+                <i class="fa fa-list"></i> <div class="d-none d-lg-block">Lists</div>
+            </div>
+            <div class="wd-borders enforce-line">
+                <i class="fa fa-user"></i> <div class="d-none d-lg-block">Profile</div>
+            </div>
+            <div class="wd-borders enforce-line">
+                <i class="fa fa-circle-ellipsis"></i>... <div class="d-none d-lg-block">More</div>
+            </div>
+            <div>
+                <button class="btn btn-primary tuit-button d-none d-lg-block">Tuit</button>
+            </div>
+        </div>
+        <div class="col-6">
+            <div>
+                <form id="search-tuiter" class="wd-searchtuiter">
+                    <div class="input-group wd-rounded-corners-all-around">
+                        <i class="fa fa-magnifying-glass"></i>
+                        <input class="wd-searchtuiterbox" placeholder="Search Tuiter">
+                        <i class="fa fa-cog fa-2x" style="color: deepskyblue"></i>
+                    </div>
+                </form>
+            </div>
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">For You</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Trending</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sports</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Entertainment</a>
+                </li>
+            </ul>
+            <br/>
 
-<div class="wd-left-pad wd-topic-box wd-borders">
-    <div class="wd-trending-topic">
-        Trending in Sports
-    </div>
-    <div class="wd-trending-title">
-        Joe Rogan
-    </div>
-    <div class="wd-trending-topic">
-        5,218 Tuits
-    </div>
-</div>
-<div class="wd-left-pad wd-image-box wd-borders">
-    <div class="wd-suggested-author">
-        The New York Times
-    </div>
-    <div class="wd-trending-title">
-        CNN's Cuomo conundrum: A star anchor with a brother in trouble
-        <img class="wd-trending-image" title="New York Times" src="../images/New York Times.png">
-    </div>
-</div>
+            <div class="card">
+                <img class="card-image-top" src="../images/Starship.jpg">
+                <div class="wd-bottom-left">
+                    <h2 class="card-text">SpaceX's Starship</h2>
+                </div>
+            </div>
+            <div class="wd-left-pad wd-image-box wd-borders">
+                <div class="wd-trending-topic">
+                    Web Development
+                </div>
+                <div class="wd-trending-title">
+                    React JS
+                    <img class="wd-trending-image" title="React JS" src="../images/React%20JS.png">
+                </div>
+                <div class="wd-trending-topic">
+                    React.js is a component based front end library that makes it very easy
+                    to build Single Page Applications or SPA's
+                </div>
+            </div>
+            <div class="wd-left-pad wd-image-box wd-borders">
+                <div class="wd-trending-title">
+                    Javascript
+                    <img class="wd-trending-image" title="Javascript" src="../images/Javascript.png">
+                </div>
+                <div class="wd-trending-title">
+                    Javascript is a language that can run on browsers as well as desktops
+                </div>
+                <div class="wd-trending-topic">
+                    123K Tuits
+                </div>
+            </div>
 
-<div class="wd-left-pad wd-image-box wd-borders">
-    <div class="wd-trending-topic">
-        COVID-19 - LIVE
+            <div class="wd-left-pad wd-image-box wd-borders">
+                <div class="wd-trending-topic">
+                    Web Development
+                </div>
+                <div class="wd-trending-title">
+                    COVID-19: News and updates for Massachusetts
+                    <img class="wd-trending-image" title="jQuery" src="../images/jQuery.png">
+                </div>
+                <div class="wd-trending-topic">
+                    123K Tuits
+                </div>
+            </div>
+            <div class="wd-left-pad wd-image-box wd-borders">
+                <div class="wd-suggested-author">
+                    Bloomberg Opinion
+                </div>
+                <div class="wd-trending-title">
+                    Thinking about getting a booster? Read this first.
+                    <img class="wd-trending-image" title="Node JS" src="../images/nodeJS.png">
+                </div>
+                <div class="wd-trending-topic">
+                    123K Tuits
+                </div>
+            </div>
+        </div>
+        <div class="col-3 d-none d-lg-block">
+            <div class="wd-borders">
+                Who to follow
+            </div>
+            <div class="wd-borders wd-follow-box">
+                <img class="wd-follow-image" src="../images/Java.png" title="Java"> Java
+                <button class="btn btn-primary follow-btn">Follow</button>
+            </div>
+            <div class="wd-borders wd-follow-box">
+                <img class="wd-follow-image" src="../images/Relativity%20Space.png" title="Relativity"> Relativity Space
+                <button class="btn btn-primary follow-btn">Follow</button>
+            </div>
+            <div class="wd-borders wd-follow-box">
+                <img class="wd-follow-image" src="../images/Virgin%20Galactic.png" title="Virgin"> Virgin Galactic
+                <button class="btn btn-primary follow-btn">Follow</button>
+            </div>
+            <div class="wd-borders wd-follow-box">
+                <img class="wd-follow-image" src="../images/Nasa.png" title="Nasa"> Nasa
+                <button class="btn btn-primary follow-btn">Follow</button>
+            </div>
+            <div class="wd-borders wd-follow-box">
+                <img class="wd-follow-image" src="../images/Tesla.png" title="Tesla"> Tesla
+                <button class="btn btn-primary follow-btn">Follow</button>
+            </div>
+        </div>
     </div>
-    <div class="wd-trending-title">
-        COVID-19: News and updates for Massachusetts
-        <img class="wd-trending-image" title="Covid-19" src="../images/Covid%2019.jpg">
-    </div>
-</div>
-<div class="wd-left-pad wd-image-box wd-borders">
-    <div class="wd-suggested-author">
-        Bloomberg Opinion
-    </div>
-    <div class="wd-trending-title">
-        Thinking about getting a booster? Read this first.
-        <img class="wd-trending-image" title="New York Times" src="../images/Booster.jpg">
-    </div>
-</div>
 
-<div class="wd-left-pad wd-topic-box wd-borders">
-    <div class="wd-trending-topic">
-        Trending in United States
-    </div>
-    <div class="wd-trending-title">
-        Wonder Bread
-    </div>
-    <div class="wd-trending-topic">
-        1,259 Tuits
-    </div>
-</div>
 
+</div>
 </body>
 </html>
