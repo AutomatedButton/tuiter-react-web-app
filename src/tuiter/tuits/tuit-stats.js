@@ -1,9 +1,17 @@
+import {updateTuitThunk}
+    from "../../../../tuiter-node-server-app/src/services/tuits-thunks";
+import { useDispatch } from "react-redux";
 const TuitStats = ({tuit}) => {
     return (
         <row>
             <a className="bi bi-reply"></a> <span>{tuit.replies}</span> |
             <a className="bi bi-arrow-repeat"></a> <span>{tuit.retuits}</span> |
-            <a className="bi bi-heart"></a> <span>{tuit.likes}</span> |
+            <div>
+                Likes: {tuit.likes}
+                <i onClick={() => dispatch(updateTuitThunk({tuit,
+                    likes: tuit.likes + 1
+                }))} className="bi bi-heart-fill me-2 text-danger"></i>
+            </div>
         </row>
     )
 }
