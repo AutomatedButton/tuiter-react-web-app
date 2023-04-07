@@ -1,5 +1,5 @@
 import {updateTuitThunk}
-    from "../../../../tuiter-node-server-app/src/services/tuits-thunks";
+    from "../../services/tuits-thunks";
 import { useDispatch } from "react-redux";
 const TuitStats = ({tuit}) => {
     return (
