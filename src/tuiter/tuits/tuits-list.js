@@ -2,7 +2,7 @@ import TuitItem from "./tuit-item";
 import {useDispatch, useSelector } from "react-redux";
 import React, {useEffect} from "react";
 import {findTuitsThunk}
-    from "../../../../tuiter-node-server-app/src/services/tuits-thunks";
+    from "../../services/tuits-thunks";
 
 
 const TuitsList = () => {
