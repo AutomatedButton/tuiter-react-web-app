@@ -2,6 +2,7 @@ import {updateTuitThunk}
     from "../../services/tuits-thunks";
 import { useDispatch } from "react-redux";
 const TuitStats = ({tuit}) => {
+    const dispatch = useDispatch();
     return (
         <row>
             <a className="bi bi-reply"></a> <span>{tuit.replies}</span> |
