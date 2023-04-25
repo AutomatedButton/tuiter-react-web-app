@@ -3,6 +3,7 @@ import {Link}
 import Nav from "../nav";
 import WhoToFollowListItem
   from "./who-to-follow-list/who-to-follow-list-item";
+import NavigationSidebar from "./navigation-sidebar";
 
 function Tuiter() {
  return(
