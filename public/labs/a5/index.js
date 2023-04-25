@@ -227,14 +227,8 @@ const init = () => {
     hideBtn.click(hideHandler);
     showBtn.click(showHandler);
 }
-import TodoList from "./TodoList.js";
+import TodoList from "./todos/TodoList.js";
 
-$('#wd-todo').append(`
-   <div class="container">
-       <h1>Todo example</h1>
-       ${TodoList()}
-   </div>
-`);
 $(init);
 
 
