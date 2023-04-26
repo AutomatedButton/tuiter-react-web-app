@@ -13,7 +13,7 @@ const TuitsList = () => {
     }, [])
 
     return (
-        <div className="list-group">
+        <ul className="list-group">
             {
                 loading &&
                 <li className="list-group-item">
@@ -26,7 +26,7 @@ const TuitsList = () => {
                     return (<TuitItem key={tuit._id} tuit={tuit} />)
                 })
             }
-        </div>
+        </ul>
     )
 }
 
